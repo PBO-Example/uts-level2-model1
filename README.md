@@ -7,6 +7,8 @@ Baca instruksi yang diberikan dengan baik.
 >Realisasikan kelas Rumah dan kelas Alamat yang ada pada kelas diagram di atas ke dalam bahasa pemrograman Java. Untuk masing-masing kelas lengkapi dengan konstruktor tanpa parameter, konstruktor dengan parameter, kopi konstruktor, serta setter dan getter. Gunakan template yang disediakan di 
 **src\main\java\uts**.
 
+>Anda boleh menggunakan (menyalin) kode program yang sudah anda hasilkan dari level 1
+
 >**Perhatikan bahwa, pada level 2 ini, tipe atribut alamat adalah Alamat.**
 
 ## Rubrik Penilaian 
