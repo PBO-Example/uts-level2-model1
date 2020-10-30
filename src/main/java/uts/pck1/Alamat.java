@@ -2,49 +2,32 @@
 package uts.pck1;
 public class Alamat{
 	//atribut
-	private String namaJalan;
-	private int nmrJalan;
-	private String namaKota;
+	/*deklarasikan atribut di sini*/
 	
 	//konstruktor
-	public Alamat(){
-		namaJalan = "Jl. Rambutan";
-		nmrJalan = 1;
-		namaKota= "Kota Besar, Sumatera Utara";
-	}
-	public Alamat(String namaJalan, int nmrJalan, String namaKota){
-		this.namaJalan = namaJalan;
-		this.nmrJalan = nmrJalan;
-		this.namaKota= namaKota;
-	}
-	public Alamat(Alamat a){
-		namaJalan = a.namaJalan;
-		nmrJalan = a.nmrJalan;
-		namaKota= a.namaKota;
-	}
+	/*tulis konstruktor tanpa parameter di sini*/
+	
+	
+	/*tulis konstruktor dengan  parameter di sini*/
+	
+	
+	/*tulis kopi konstruktor di sini*/
+	
 	//setter
-	public void setNamaJalan(String namaJalan){
-		this.namaJalan = namaJalan;
-	}
-	public void setNmrJalan(int nmrJalan){
-		this.nmrJalan = nmrJalan;
-	}
-	public void setNamaKota(String namaKota){
-		this.namaKota = namaKota;
-	}
+	/*tulis semua setter di sini*/
+	
+	
+	
+	
 	//getter
-	public String getNamaJalan(){
-		return namaJalan;
-	}
-	public int getNmrJalan(){
-		return nmrJalan;
-	}
-	public String getNamaKota(){
-		return namaKota;
-	}
-	public String toString(){
-		return namaJalan+" No."+nmrJalan+ " "+namaKota;
-	}
+	/*tulis semua getter di sini*/
+	
+	
+	
+	/*tulis method toString() di sini*/
+	/*Method toString() akan mengembalikan sebuah string, baca file Readme.md*/
+	
+
 	
 	//method ini tidak boleh dihapus atau diubah
 	public boolean equals(Object o){
