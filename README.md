@@ -1,9 +1,9 @@
-# UTS Praktikum Level 1 dari 4 Level
+# UTS Praktikum Level 2 dari 4 Level
 Baca instruksi yang diberikan dengan baik.
 
 
 ## Kelas Diagram
-![Image of UTS Level 1](http://api.puro.del.ac.id/v1/file/99fb856b148f644be5bd881ef88a9c9d)
+![Image of UTS Level 2](http://api.puro.del.ac.id/v1/file/99fb856b148f644be5bd881ef88a9c9d)
 >Realisasikan kelas Rumah dan kelas Alamat yang ada pada kelas diagram di atas ke dalam bahasa pemrograman Java. Untuk masing-masing kelas lengkapi dengan konstruktor tanpa parameter, konstruktor dengan parameter, kopi konstruktor, serta setter dan getter. Gunakan template yang disediakan di 
 **src\main\java\uts**.
 
