@@ -3,11 +3,11 @@ Baca instruksi yang diberikan dengan baik.
 
 
 ## Kelas Diagram
-![Image of UTS Level 1](http://api.puro.del.ac.id/v1/file/a374428e9dc7ebac9c0d8f15898778eb)
->Realisasikan kelas diagram di atas ke dalam bahasa pemrograman Java, lengkapi dengan konstruktor tanpa parameter, konstruktor dengan parameter, kopi konstruktor, serta setter dan getter. Gunakan template yang disediakan di 
+![Image of UTS Level 1](http://api.puro.del.ac.id/v1/file/99fb856b148f644be5bd881ef88a9c9d)
+>Realisasikan kelas Rumah dan kelas Alamat yang ada pada kelas diagram di atas ke dalam bahasa pemrograman Java. Untuk masing-masing kelas lengkapi dengan konstruktor tanpa parameter, konstruktor dengan parameter, kopi konstruktor, serta setter dan getter. Gunakan template yang disediakan di 
 **src\main\java\uts**.
 
->Atribut statusSewa digunakan untuk menyimpan status rumah sudah disewa atau belum. Nilai true artinya rumah sudah disewa, dan false artinya rumah belum disewa.
+>**Perhatikan bahwa, pada level 2 ini, tipe atribut alamat adalah Alamat.**
 
 ## Rubrik Penilaian 
 1. **[Poin 10]** program dilengkapi dengan konstruktor tanpa parameter yang set data dengan nilai default sebagai berikut:

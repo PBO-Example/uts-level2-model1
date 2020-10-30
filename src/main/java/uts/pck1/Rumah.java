@@ -2,7 +2,7 @@
 package uts.pck1;
 public class Rumah{
 	//atribut
-	private String alamat;
+	private Alamat alamat;
 	private int tingkat;
 	private int jmlKamarTidur;
 	private int jmlKamarMandi;
@@ -11,15 +11,15 @@ public class Rumah{
 	
 	//konstruktor
 	public Rumah(){
-		alamat="Jl. Rambutan No.1 Kota Besar, Sumatera Utara";
+		alamat=new Alamat();
 		tingkat=1;
 		jmlKamarTidur=2;
 		jmlKamarMandi=1;
 		hargaSewaSetahun=5000000;
 		statusSewa=false;
 	}
-	public Rumah(String alamat, int tingkat, int jmlKamarTidur, int jmlKamarMandi, double hargaSewaSetahun, boolean statusSewa){
-		this.alamat=alamat;
+	public Rumah(Alamat alamat, int tingkat, int jmlKamarTidur, int jmlKamarMandi, double hargaSewaSetahun, boolean statusSewa){
+		this.alamat=new Alamat(alamat);
 		this.tingkat=tingkat;
 		this.jmlKamarTidur=jmlKamarTidur;
 		this.jmlKamarMandi=jmlKamarMandi;
@@ -28,7 +28,7 @@ public class Rumah{
 		
 	}
 	public Rumah(Rumah r){
-		alamat=r.alamat;
+		alamat=new Alamat(r.alamat);
 		tingkat=r.tingkat;
 		jmlKamarTidur=r.jmlKamarTidur;
 		jmlKamarMandi=r.jmlKamarMandi;
@@ -37,7 +37,7 @@ public class Rumah{
 	}
 	
 	//setter
-	public void setAlamat(String alamat){
+	public void setAlamat(Alamat alamat){
 		this.alamat=alamat;
 	}
 	public void setTingkat(int tingkat){
@@ -56,7 +56,7 @@ public class Rumah{
 		this.statusSewa=statusSewa;
 	}
 	//getter
-	public String getAlamat(){
+	public Alamat getAlamat(){
 		return alamat;
 	}
 	public int getTingkat(){
@@ -74,6 +74,7 @@ public class Rumah{
 	public boolean getStatusSewa( ){
 		return statusSewa;
 	}
+	
 	public double hitungHargaSewa(int tahun){
 		return tahun*hargaSewaSetahun;
 	}
@@ -95,7 +96,7 @@ public class Rumah{
 	public boolean equals(Object obj){
 		if (obj instanceof Rumah){
 			Rumah rumah = (Rumah) obj;
-			return (getAlamat().equalsIgnoreCase(rumah.getAlamat()) && getTingkat()==rumah.getTingkat() && getJmlKamarTidur()== rumah.getJmlKamarTidur() && getJmlKamarMandi() == rumah.getJmlKamarMandi() && getHargaSewaSetahun()==rumah.getHargaSewaSetahun());
+			return (getAlamat().equals(rumah.getAlamat()) && getTingkat()==rumah.getTingkat() && getJmlKamarTidur()== rumah.getJmlKamarTidur() && getJmlKamarMandi() == rumah.getJmlKamarMandi() && getHargaSewaSetahun()==rumah.getHargaSewaSetahun());
 		}
 		return false;
 	}
